@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/katia/Desktop/TADS UFPR/5. semestre/DS143- ED2/semana4/mergeSort/main.c
+stdio.h
+-
+stdlib.h
+-
+

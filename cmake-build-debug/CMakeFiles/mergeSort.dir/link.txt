@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mergeSort.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\mergeSort.dir/objects.a @CMakeFiles\mergeSort.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\mergeSort.dir/objects.a -Wl,--no-whole-archive -o mergeSort.exe -Wl,--out-implib,libmergeSort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mergeSort.dir\linklibs.rsp
