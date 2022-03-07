@@ -15,9 +15,8 @@ void insertion_sort(long int * v, long int n){
 }
 
 void merge_sort(int i, int j, int a[], int aux[]) {
-    if (j <= i) {
+    if (j <= i)
         return;
-    }
 
     int meio = (i + j) / 2;
 
